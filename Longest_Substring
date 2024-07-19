@@ -1,0 +1,7 @@
+# Find longest substring without certain character
+
+string = 'cbdbabdbcbdacbadbcbbcda'
+avoid = 'a'
+
+longest_substring = max((len(substring) for substring in string.split(avoid)))
+print(longest_substring)
