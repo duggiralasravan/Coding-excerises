@@ -1,0 +1,7 @@
+# Input - [21,0,3,4,0,7]
+# Output - [21, 3, 4, 7, 0, 0]
+
+a=[21,0,3,4,0,7]
+b=[i for i in a if i>0]
+b+=[0]*(len(a)-len(b))
+print(b)
