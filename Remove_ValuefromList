@@ -1,0 +1,7 @@
+x = [21,0,3,4,0,7]
+
+
+print(list(filter((0).__eq__,x)))
+#Output - [0,0]
+print(list(filter((0).__ne__,x)))
+#[21, 3, 4, 7]
