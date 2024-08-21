@@ -1,0 +1,8 @@
+#Remove duplicates from list 
+
+x = [3,3,4]
+result = 0 
+
+for i in x:
+  result = result^i
+print(result)
