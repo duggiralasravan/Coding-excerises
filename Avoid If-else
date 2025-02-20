@@ -1,0 +1,24 @@
+def first():
+    print("In First")
+
+
+def second():
+    print("In Second")
+
+
+def third():
+    print("In Third")
+
+
+def default():
+    print("In Default")
+
+
+var: int = 5
+funcs: dict = {0: first,
+               1: second,
+               2: third
+               }
+
+final = funcs.get(var, default)
+final()
